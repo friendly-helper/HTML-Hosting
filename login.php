@@ -13,9 +13,9 @@ $isLoggedIn = isset($_SESSION['username']);
 <body>
 
     <div class="nav">
-        <div class="navelem1"><a href="http://index" target="_blank" rel="noopener noreferrer">Index</a></div>
+        <div class="navelem1"><a href="http://index">Index</a></div>
         <div class="navelem2">Üdv, kedves <?php echo isset($_SESSION['username']) && !empty($_SESSION['username']) ? htmlspecialchars($_SESSION['username']) : 'Vendég';?> </div>
-        <div class="navelem3"><a href="http://login" target="_blank" rel="noopener noreferrer">Login</a></div>
+        <div class="navelem3"><a href="http://login">Login/Logout</a></div>
     </div>
     
     <div class="main">
